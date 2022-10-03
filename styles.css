@@ -1,0 +1,18 @@
+p {
+    border: 1px #87BEC8;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: #E9F3F4;
+ }
+
+ h1 {
+    font-weight: bold;
+    text-align: left;
+    color: #547688;
+ }
+
+ h2 {
+    font-weight: bold;
+    text-align: left;
+    color: #6B94A9;
+ }
