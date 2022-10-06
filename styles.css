@@ -22,3 +22,22 @@ h3 {
     text-align: left;
     color: #81ACC2;
 }
+
+div.heading1{border: 2px solid #313F4C;
+padding: 10px 10px 10px 10px;
+margin: 10px 10px 10px 10px;
+background-color:#95E4DE;
+}
+
+div.heading2{border: 2px solid #2C3D31;
+padding: 10px 10px 10px 10px;
+margin: 10px 10px 10px 10px;
+background-color: #A3DCB4;
+}
+
+div.heading3{border: 2px solid #37412D;
+padding: 10px 10px 10px 10px;
+margin: 10px 10px 10px 10px;
+background-color: #C0DCA5;
+}
+
