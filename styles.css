@@ -2,35 +2,53 @@ body {
    background-color: #A3CCDF;
 }
 
+a {
+   font-style: italic;
+   color: rgb(0, 0, 255);
+}
+
 ul {
     border: 5px solid #4F667B;
     padding: 20px 20px 20px 20px;
     margin: 10px 10px 10px 10px;
     background-color: #E9FCF7;
+    border-radius: .5em;
  }
 
  h1 {
     font-weight: bold;
     text-align: left;
     color: #3D5265;
+    text-transform: capitalize;
  }
 
  h2 {
     font-weight: bold;
     text-align: left;
     color: #3D5265;
+    text-transform: capitalize;
  }
 
 h3 {
     font-weight: bold;
     text-align: left;
     color: #3D5265;
+    text-transform: capitalize;
 }
 
 h4 {
     font-weight: bold;
     text-align: left;
     color: #3D5265;
+    text-transform: capitalize;
+}
+
+footer {
+   border: 5px solid #4F667B;
+   padding: 10px 10px 10px 10px;
+   margin: 10px 10px 10px 10px;
+   background-color: #E9FCF7;
+   border-radius: .5em;
 }
 
 div.heading1 {
@@ -38,6 +56,7 @@ div.heading1 {
    padding: 10px 10px 10px 10px;
    margin: 10px 10px 10px 10px;
    background-color:#E9FCF7;
+   border-radius: .5em;
 }
 
 div.heading2 {
@@ -45,6 +64,7 @@ div.heading2 {
    padding: 10px 10px 10px 10px;
    margin: 10px 10px 10px 10px;
    background-color: #E9FCF7;
+   border-radius: .5em;
 }
 
 div.heading3 {
@@ -52,6 +72,7 @@ div.heading3 {
    padding: 10px 10px 10px 10px;
    margin: 10px 10px 10px 10px;
    background-color: #E9FCF7;
+   border-radius: .5em;
 }
 
 div.heading4 {
@@ -59,6 +80,7 @@ div.heading4 {
    padding: 10px 10px 10px 10px;
    margin: 10px 10px 10px 10px;
    background-color: #E9FCF7;
+   border-radius: .5em;
 }
 
 .container {
@@ -69,12 +91,14 @@ div.heading4 {
 img {
      width: 100%;
      height: auto;
+     border-radius: .5em;
 }
 
 nav ul {
    display: flex;
    flex-direction: row;
    padding: 0px;
+   border-radius: 2em;
 }
 
 nav ul li {
@@ -84,18 +108,28 @@ nav ul li {
 
 nav ul li a {
    display: block;
-   padding: 0.75em;
+   padding: 0.25em;
    margin: 0.25em;
    background-color: #4F667B;
    color: #E9FCF7;
    text-align: center;
    text-decoration: none;
-   border-radius: 10px;
+   border-radius: 1em;
+   border-color: #4F667B;
+   border-style: solid;
 }
 
 nav ul li a:hover {
-   background-color: #4F667B;
-   box-shadow: inset 3px 3px 10px #2F3F53;
+   display: block;
+   padding: 0.25em;
+   margin: 0.25em;
+   background-color: #4f667b00;
+   color: #4F667B;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 1em;
+   border-color: #4F667B;
+   border-style: solid;
 }
 
 @media screen and (max-width: 650px) {
