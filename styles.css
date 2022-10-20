@@ -20,6 +20,7 @@ ul {
     text-align: left;
     color: #3D5265;
     text-transform: capitalize;
+    font-family: 'Squada One', cursive;
  }
 
  h2 {
@@ -27,6 +28,7 @@ ul {
     text-align: left;
     color: #3D5265;
     text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
  }
 
 h3 {
@@ -34,6 +36,7 @@ h3 {
     text-align: left;
     color: #3D5265;
     text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
 }
 
 h4 {
@@ -41,6 +44,7 @@ h4 {
     text-align: left;
     color: #3D5265;
     text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
 }
 
 footer {
