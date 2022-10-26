@@ -93,9 +93,11 @@ div.heading4 {
 }
 
 img {
-     width: 100%;
-     height: auto;
-     border-radius: .5em;
+   display: block;
+   margin: 1em auto;
+   width: 100%;
+   height: auto;
+   border-radius: .5em;
 }
 
 nav ul {
