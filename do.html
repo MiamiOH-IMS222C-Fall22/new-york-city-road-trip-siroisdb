@@ -131,6 +131,8 @@
             </ul>
     </div>
 
+
+
     <footer>
         <h4>Guide Sources</h4>
         <p>Text from <a href="https://wikitravel.org/en/New_York_City#Do">WikiTravel's New York City do guide</a>
@@ -145,6 +147,28 @@
                 href="https://unsplash.com/">Unsplash</a>. </p>
     </footer>
     </main>
+
+    <button onclick="topFunction()" id="myBtn" title="Return to top">Return to Top</button>
+
+<script>
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 </body>
 
 </html>
