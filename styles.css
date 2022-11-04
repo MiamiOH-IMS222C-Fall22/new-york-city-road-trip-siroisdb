@@ -7,6 +7,14 @@ a {
    color: rgb(0, 0, 255);
 }
 
+a:link {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
 ul {
     border: 5px solid #4F667B;
     padding: 20px 20px 20px 20px;
@@ -49,7 +57,7 @@ h4 {
 
 footer {
    border: 5px solid #4F667B;
-   padding: 10px 20px 10px 20px;
+   padding: 10px 30px 10px 30px;
    margin: 10px 10px 10px 10px;
    background-color: #E9FCF7;
    border-radius: .5em;
@@ -57,7 +65,7 @@ footer {
 
 div.heading1 {
    border: 5px solid #4F667B;
-   padding: 10px 20px 10px 20px;
+   padding: 10px 30px 10px 30px;
    margin: 10px 10px 10px 10px;
    background-color:#E9FCF7;
    border-radius: .5em;
@@ -65,7 +73,7 @@ div.heading1 {
 
 div.heading2 {
    border: 5px solid #4F667B;
-   padding: 10px 20px 10px 20px;
+   padding: 10px 30px 10px 30px;
    margin: 10px 10px 10px 10px;
    background-color: #E9FCF7;
    border-radius: .5em;
@@ -73,7 +81,7 @@ div.heading2 {
 
 div.heading3 {
    border: 5px solid #4F667B;
-   padding: 10px 20px 10px 20px;
+   padding: 10px 30px 10px 30px;
    margin: 10px 10px 10px 10px;
    background-color: #E9FCF7;
    border-radius: .5em;
@@ -81,7 +89,7 @@ div.heading3 {
 
 div.heading4 {
    border: 5px solid #4F667B;
-   padding: 10px 20px 10px 20px;
+   padding: 10px 30px 10px 30px;
    margin: 10px 10px 10px 10px;
    background-color: #E9FCF7;
    border-radius: .5em;
