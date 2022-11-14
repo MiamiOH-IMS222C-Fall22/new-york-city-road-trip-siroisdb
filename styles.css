@@ -16,10 +16,10 @@ a:hover {
 }
 
 ul {
-    border: 5px solid #4F667B;
     padding: 20px 20px 20px 20px;
     margin: 10px 10px 10px 10px;
     background-color: #E9FCF7;
+    border: 5px solid #4F667B;
     border-radius: .5em;
  }
 
@@ -168,6 +168,7 @@ nav ul li a:hover {
 
 iframe {
    width: 100%;
+   border-radius: .5em;
 }
 
 #myBtn:hover {
@@ -212,7 +213,7 @@ iframe {
 }
 
 .text {
-  color: #f2f2f2;
+  color: #E9FCF7;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -222,7 +223,7 @@ iframe {
 }
 
 .numbertext {
-  color: #f2f2f2;
+  color: #E9FCF7;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -234,14 +235,14 @@ iframe {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #E9FCF7;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #51545A;
 }
 
 .fade {
